@@ -1,1 +1,0 @@
-cmd_/home/embedded/aes-example-new/aes.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/aes-example-new/aes.ko /home/embedded/aes-example-new/aes.o /home/embedded/aes-example-new/aes.mod.o;  true
